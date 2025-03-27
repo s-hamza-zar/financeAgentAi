@@ -3,7 +3,7 @@ name: Daily Bitcoin Agent
 on:
   schedule:
     # Run daily at midnight UTC
-    # - cron: '* * * * *'
+      cron: '* * * * *'
   workflow_dispatch:  # Allows manual triggering
 
 jobs:
