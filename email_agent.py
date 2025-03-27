@@ -22,7 +22,7 @@ class FinanceEmailAgent:
         self.supabase_key = os.getenv("SUPABASE_KEY")
         self.gmail_user = os.getenv("GMAIL_USER")
         self.gmail_password = os.getenv("GMAIL_APP_PASSWORD")
-        self.recipient_email = "s.hamza.zar@gmail.com"
+        self.recipient_email = "najeebskw@gmail.com"
         
         # Verify that necessary API keys and credentials are available
         if not self.hf_api_key:
